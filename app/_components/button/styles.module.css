@@ -1,0 +1,26 @@
+.button {
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+  margin: 0 0.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.button > span {
+  margin-left: 0.5rem;
+}
+
+.primary {
+  background-color: #50a584;
+  color: #f1f1f1;
+}
+
+.default {
+  background: transparent;
+  color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+}

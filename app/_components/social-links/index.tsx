@@ -4,6 +4,7 @@ import {
   PiDiscordLogo,
   PiFacebookLogo,
   PiInstagramLogo,
+  PiPlayCircle,
   PiTiktokLogo,
   PiTwitchLogo,
   PiTwitterLogo,
@@ -12,12 +13,13 @@ import {
 function SocialLinks() {
   return (
     <div className={styles.socialLinks}>
-      <PiInstagramLogo size={24} />
-      <PiTiktokLogo size={24} />
-      <PiTwitterLogo size={24} />
-      <PiTwitchLogo size={24} />
-      <PiFacebookLogo size={24} />
-      <PiDiscordLogo size={24} />
+      <PiInstagramLogo size={22} />
+      <PiTiktokLogo size={22} />
+      <PiTwitterLogo size={22} />
+      <PiTwitchLogo size={22} />
+      <PiFacebookLogo size={22} />
+      <PiDiscordLogo size={22} />
+      <PiPlayCircle size={22} />
     </div>
   );
 }

@@ -2,3 +2,41 @@
   display: flex;
   justify-content: space-between;
 }
+
+.featuredLogo {
+  display: flex;
+}
+
+.featuredImageDesc {
+  writing-mode: vertical-lr;
+  font-style: italic;
+  rotate: 180deg;
+  padding: 0 0.5rem;
+  letter-spacing: 1.1px;
+}
+
+.featuredImageDesc > span {
+  color: green;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 2rem;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.artists {
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+.actions {
+  display: flex;
+}

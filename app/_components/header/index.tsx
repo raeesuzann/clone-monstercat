@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className={styles.header}>
       <Image src="/logo.webp" width={50} height={50} alt="header logo" />
-      <PiTextAlignJustify size={24} />
+      <PiTextAlignJustify size={30} />
     </div>
   );
 }
