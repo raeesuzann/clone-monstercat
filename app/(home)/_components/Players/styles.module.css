@@ -1,0 +1,25 @@
+.players {
+  margin-bottom: 4rem;
+}
+
+.players__title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.player__icon {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.player__icon > svg {
+  margin-right: 0.5rem;
+}

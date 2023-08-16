@@ -8,7 +8,7 @@ import FeaturedDetails from "./FeaturedDetails";
 function Featured() {
   return (
     <div className={styles.featured}>
-      <div className="p-24 flex">
+      <div className="py-24 flex">
         <FeaturedLogo />
         <FeaturedDetails />
       </div>

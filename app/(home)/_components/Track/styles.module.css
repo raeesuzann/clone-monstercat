@@ -1,0 +1,34 @@
+.track {
+}
+
+.track__title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.track__list {
+  /* height: 500px; */
+}
+
+.track__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.track__details > div {
+  padding: 1rem;
+}
+
+.track__name {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.track__album {
+  display: block;
+  font-size: 12px;
+}
