@@ -1,0 +1,7 @@
+.music__title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}

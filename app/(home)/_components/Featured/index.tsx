@@ -1,9 +1,7 @@
 import styles from "./styles.module.css";
 
-import SocialLinks from "@/app/_components/social-links";
-
-import FeaturedLogo from "./FeaturedLogo";
 import FeaturedDetails from "./FeaturedDetails";
+import FeaturedLogo from "./FeaturedLogo";
 
 function Featured() {
   return (
@@ -12,7 +10,6 @@ function Featured() {
         <FeaturedLogo />
         <FeaturedDetails />
       </div>
-      <SocialLinks />
     </div>
   );
 }

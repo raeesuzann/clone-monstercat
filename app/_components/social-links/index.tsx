@@ -16,7 +16,11 @@ interface ISocialLinks {
 
 function SocialLinks({ horizontal }: ISocialLinks) {
   return (
-    <div className={`${styles.socialLinks}  ${horizontal && "flex items-center justify-between flex-1"}`}>
+    <div
+      className={`${
+        horizontal ? "flex items-center justify-between space-x-3" : styles.socialLinks
+      }`}
+    >
       <PiInstagramLogo size={22} />
       <PiTiktokLogo size={22} />
       <PiTwitterLogo size={22} />

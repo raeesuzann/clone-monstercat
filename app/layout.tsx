@@ -19,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={archivo.className}>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <div className="root">
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

@@ -1,4 +1,5 @@
 import Featured from "./_components/Featured";
+import MusicVideo from "./_components/MusicVideo";
 import Players from "./_components/Players";
 import Track from "./_components/Track";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Featured />
       <Players />
       <Track />
+      <MusicVideo />
     </div>
   );
 }
