@@ -1,4 +1,4 @@
-import { PiPlay, PiShare } from "react-icons/pi";
+import { PiPlay, PiShareNetworkBold } from "react-icons/pi";
 
 import Button from "@/app/_components/button";
 
@@ -17,7 +17,7 @@ function FeaturedDetails() {
           <span>Listen Now</span>
         </Button>
         <Button>
-          <PiShare />
+          <PiShareNetworkBold />
           <span>share</span>
         </Button>
       </div>

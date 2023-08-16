@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 1.5px;
 }
@@ -19,8 +19,20 @@
   color: #f1f1f1;
 }
 
+.primary:hover {
+  background-color: #f1f1f1;
+  color: #50a584;
+  transition: ease-in 0.5s;
+}
+
 .default {
   background: transparent;
   color: #f1f1f1;
   border: 1px solid #f1f1f1;
+}
+
+.default:hover {
+  background: #f1f1f1;
+  color: black;
+  transition: ease-in 0.5s;
 }

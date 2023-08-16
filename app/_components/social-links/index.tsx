@@ -10,9 +10,13 @@ import {
   PiTwitterLogo,
 } from "react-icons/pi";
 
-function SocialLinks() {
+interface ISocialLinks {
+  horizontal?: boolean;
+}
+
+function SocialLinks({ horizontal }: ISocialLinks) {
   return (
-    <div className={styles.socialLinks}>
+    <div className={`${styles.socialLinks}  ${horizontal && "flex items-center justify-between flex-1"}`}>
       <PiInstagramLogo size={22} />
       <PiTiktokLogo size={22} />
       <PiTwitterLogo size={22} />

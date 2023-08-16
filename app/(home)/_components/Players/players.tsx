@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import {
   PiAppleLogo,
+  PiBandaids,
   PiPlay,
   PiSoundcloudLogo,
   PiSpotifyLogo,
@@ -21,7 +22,7 @@ export const PLAYERS: IPlayers[] = [
   },
   {
     id: 2,
-    icon: <PiAppleLogo size={22} />,
+    icon: <PiBandaids size={22} />,
   },
   {
     id: 3,
