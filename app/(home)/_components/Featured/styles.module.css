@@ -21,8 +21,12 @@
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
+  letter-spacing: 3px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
 }
 
 .subtitle {
