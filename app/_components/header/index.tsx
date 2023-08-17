@@ -8,9 +8,9 @@ function Header() {
   return (
     <div className={styles.header}>
       <Image src="/logo.webp" width={50} height={50} alt="header logo" />
-      <div>
+      <div className="h-0">
         <PiTextAlignJustify size={30} />
-        {/* <SocialLinks /> */}
+        <SocialLinks />
       </div>
     </div>
   );

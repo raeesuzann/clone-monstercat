@@ -5,5 +5,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 15rem;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .header {
+    padding: 5rem;
+  }
 }
