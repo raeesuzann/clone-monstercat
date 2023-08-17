@@ -1,3 +1,4 @@
+import About from "../_components/about";
 import Featured from "./_components/Featured";
 import MusicVideo from "./_components/MusicVideo";
 import Players from "./_components/Players";
@@ -10,6 +11,7 @@ export default function Home() {
       <Players />
       <Track />
       <MusicVideo />
+      <About />
     </div>
   );
 }
