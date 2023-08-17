@@ -5,6 +5,7 @@
 }
 
 .socialLinks > svg {
+  cursor: pointer;
   margin-top: 1rem;
   display: block;
   /* position: absolute; */

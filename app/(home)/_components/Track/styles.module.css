@@ -1,4 +1,6 @@
-.track {
+.track__id {
+  width: 3.5rem;
+  text-align: center;
 }
 
 .track__title {
@@ -34,5 +36,14 @@
 }
 
 .track__actions {
+  cursor: pointer;
+}
+
+.tracK__share:hover,
+.track__actions:hover {
+  scale: 1.1;
+}
+
+.tracK__share {
   cursor: pointer;
 }
